@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namaste React</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!--! h1 using html -->
+
+    <h1>Hello top of Root ======> as it is at top</h1>
+    <div id="root">
+      <h1 class="h1">Hello World! ======> will replace with parent</h1>
+    </div>
+    <h1>Hello bottom of Root ======> as it is at bottom</h1>
+
+    <!--! h1 using JavaScript -->
+
+    <!-- <script>
+      const heading = document.createElement("h1");
+      heading.innerHTML = "Hello World! From JavaScript";
+      const root = document.getElementById("root");
+      root.appendChild(heading);
+    </script> -->
+
+    <!-- ! CDN = Content Delivery Network -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <!--! h1 using React -->
+
+    <script src="./App.js"></script>
+  </body>
+</html>

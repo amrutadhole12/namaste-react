@@ -1,0 +1,12 @@
+#heading {
+  color: red;
+}
+
+.h1 {
+  color: green;
+}
+
+#child1,
+#child2 {
+  color: red;
+}
